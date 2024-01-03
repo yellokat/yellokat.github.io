@@ -1,4 +1,5 @@
 ---
+math: true
 title: "All About Decision Trees - 의사결정나무의 모든 것"
 categories:
   - Machine Learning
