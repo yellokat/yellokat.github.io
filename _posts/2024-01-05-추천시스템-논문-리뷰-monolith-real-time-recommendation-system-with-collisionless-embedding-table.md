@@ -14,11 +14,6 @@ tags:
   - ByteDance
 ---
 
-# [2022] Monolith : Real Time Recommendation System With
-Collisionless Embedding Table
-
-[Monolith_ Real Time Recommendation System With Collisionless Embedding Table.pdf](%5B2022%5D%20Monolith%20Real%20Time%20Recommendation%20System%20Wi%200918441583594e26877ca2d8b8aac7aa/Monolith__Real_Time_Recommendation_System_With_Collisionless_Embedding_Table.pdf)
-
 # Background
 
 2020년대부터는 SNS 시장에 숏폼 컨텐츠가 급부상하며, 짧고 강한 자극에 말초신경이 절여진 우리의 시간을 삭제하고 있다. 숏폼 콘텐츠의 주요 성공 요인 중에서 단연 돋보이는 것은 바로 헤어나올 수 없는 마성의 추천 알고리즘이다. 숏폼 컨텐츠의 원조이자 선두주자인 틱톡(TikTok)의 모회사 바이트댄스(ByteDance)에서는 어떤 방식으로 대규모 추천 엔진을 구축하였는지 살펴보자. 
