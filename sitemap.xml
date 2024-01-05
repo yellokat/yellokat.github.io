@@ -1,214 +1,302 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>http://localhost:4000/posts/7.-Regularization-for-Deep-Learning/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.1.1.-Parameter-Norm-Penalties,-L2-Regularization/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/categories/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.1.2.-Parameter-Norm-Penalties,-L1-Regularization/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.3.-Regularization-and-Under-Constrained-Problems/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/archives/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.4.-Data-Augmentation/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/about/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.5.-Noise-Robustness/</loc>
-<lastmod>2024-01-04T04:24:33+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-auto-encoding-variational-bayes/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.7.-Multitask-Learning/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-cl4ctr-a-contrastive-learning-framework-for-ctr-prediction/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.8.-Early-Stopping/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-mmgcn-multi-modal-graph-convolution-network-for-personalized-recommendation-of-micro-video/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.9.-Parameter-Tying-and-Parameter-Sharing/</loc>
-<lastmod>2024-01-04T04:24:33+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-monolith-real-time-recommendation-system-with-collisionless-embedding-table/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.10.-Sparse-Representations/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-wide-deep-learning-for-recommender-systems/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.11.-Bagging-and-other-Ensemble-Methods-copy/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-factorization-machines/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.12.-Dropout/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/All-About-Decision-Trees/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/7.13.-Adversarial-Training/</loc>
-<lastmod>2024-01-04T04:24:33+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Matrix-Factorization-Techniques-for-Recommender-Systems/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/8.-Optimization-for-Deep-Learning/</loc>
-<lastmod>2024-01-04T04:24:33+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/11.5.-Debugging-Strategies/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/8.1.-How-Learning-Differs-from-Pure-Optimization/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/11.4.-Selecting-Hyperparameters/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/11.-Practical-Methodologies/</loc>
-<lastmod>2024-01-04T04:24:33+09:00</lastmod>
+  <loc>https://yellokat.github.io/page2/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/11.1.-Evaluation-Metrics/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/page3/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/11.2.-Default-Baseline-Models/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/posts/7.-Regularization-for-Deep-Learning/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/11.3.-Determining-Whether-to-Gather-More-Data/</loc>
-<lastmod>2024-01-04T04:24:33+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/books/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/11.4.-Selecting-Hyperparameters/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/deep-learning-book/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/11.5.-Debugging-Strategies/</loc>
-<lastmod>2024-01-04T04:24:33+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/study-group/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Matrix-Factorization-Techniques-for-Recommender-Systems/</loc>
-<lastmod>2022-10-29T00:00:00+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/statistics/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/All-About-Decision-Trees/</loc>
-<lastmod>2024-01-05T18:39:14+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/regularization/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-factorization-machines/</loc>
-<lastmod>2024-01-04T13:45:00+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/machine-learning/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-wide-deep-learning-for-recommender-systems/</loc>
-<lastmod>2024-01-04T14:22:00+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/recommender-systems/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-monolith-real-time-recommendation-system-with-collisionless-embedding-table/</loc>
-<lastmod>2024-01-05T22:49:21+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/debugging/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-mmgcn-multi-modal-graph-convolution-network-for-personalized-recommendation-of-micro-video/</loc>
-<lastmod>2024-01-05T22:28:27+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/deep-learning/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-cl4ctr-a-contrastive-learning-framework-for-ctr-prediction/</loc>
-<lastmod>2024-01-05T19:32:00+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/optimization/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/posts/%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-auto-encoding-variational-bayes/</loc>
-<lastmod>2024-01-05T19:35:00+09:00</lastmod>
+  <loc>https://yellokat.github.io/categories/deep-learning-book/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/</loc>
-<lastmod>2024-01-05T23:06:23+09:00</lastmod>
+  <loc>https://yellokat.github.io/categories/machine-learning/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/</loc>
-<lastmod>2024-01-05T23:06:23+09:00</lastmod>
+  <loc>https://yellokat.github.io/categories/papers/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/archives/</loc>
-<lastmod>2024-01-05T23:06:23+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/algorithms/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
-<lastmod>2024-01-05T23:06:23+09:00</lastmod>
+  <loc>https://yellokat.github.io/tags/bytedance/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+  <loc>https://yellokat.github.io/tags/decision-trees/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/books/</loc>
+  <loc>https://yellokat.github.io/tags/google/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/deep-learning-book/</loc>
+  <loc>https://yellokat.github.io/tags/industrial-machine-learning/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/regularization/</loc>
+  <loc>https://yellokat.github.io/tags/linear-algebra/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/statistics/</loc>
+  <loc>https://yellokat.github.io/tags/ml-engineering/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/study-group/</loc>
+  <loc>https://yellokat.github.io/tags/mlops/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/optimization/</loc>
+  <loc>https://yellokat.github.io/tags/multi-modal-recommendation/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/debugging/</loc>
+  <loc>https://yellokat.github.io/posts/11.3.-Determining-Whether-to-Gather-More-Data/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/recommender-systems/</loc>
+  <loc>https://yellokat.github.io/posts/11.2.-Default-Baseline-Models/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/machine-learning/</loc>
+  <loc>https://yellokat.github.io/posts/11.1.-Evaluation-Metrics/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/linear-algebra/</loc>
+  <loc>https://yellokat.github.io/posts/11.-Practical-Methodologies/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/algorithms/</loc>
+  <loc>https://yellokat.github.io/posts/8.1.-How-Learning-Differs-from-Pure-Optimization/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/decision-trees/</loc>
+  <loc>https://yellokat.github.io/posts/8.-Optimization-for-Deep-Learning/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/deep-learning/</loc>
+  <loc>https://yellokat.github.io/posts/7.13.-Adversarial-Training/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/industrial-machine-learning/</loc>
+  <loc>https://yellokat.github.io/posts/7.12.-Dropout/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/google/</loc>
+  <loc>https://yellokat.github.io/posts/7.11.-Bagging-and-other-Ensemble-Methods-copy/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/ml-engineering/</loc>
+  <loc>https://yellokat.github.io/posts/7.10.-Sparse-Representations/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/mlops/</loc>
+  <loc>https://yellokat.github.io/posts/7.9.-Parameter-Tying-and-Parameter-Sharing/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/bytedance/</loc>
+  <loc>https://yellokat.github.io/posts/7.8.-Early-Stopping/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/tags/multi-modal-recommendation/</loc>
+  <loc>https://yellokat.github.io/posts/7.7.-Multitask-Learning/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/deep-learning-book/</loc>
+  <loc>https://yellokat.github.io/posts/7.5.-Noise-Robustness/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/papers/</loc>
+  <loc>https://yellokat.github.io/posts/7.4.-Data-Augmentation/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/machine-learning/</loc>
+  <loc>https://yellokat.github.io/posts/7.3.-Regularization-and-Under-Constrained-Problems/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/page2/</loc>
+  <loc>https://yellokat.github.io/posts/7.1.2.-Parameter-Norm-Penalties,-L1-Regularization/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/page3/</loc>
+  <loc>https://yellokat.github.io/posts/7.1.1.-Parameter-Norm-Penalties,-L2-Regularization/</loc>
+  <lastmod>2024-01-05T14:12:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-<url>
-<loc>http://localhost:4000/assets/images/papers/recsys/4-monolith/presentation.pdf</loc>
-<lastmod>2024-01-05T09:04:40+09:00</lastmod>
-</url>
+
+
 </urlset>
