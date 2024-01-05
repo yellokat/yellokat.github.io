@@ -1,6 +1,6 @@
 ---
 math: true
-title: "[추천시스템 논문 리뷰] Matrix Factorization for Recommender Systems"
+title: "[추천시스템 논문 리뷰] Matrix Factorization Techniques for Recommender Systems"
 categories:
   - Papers
 tags:
@@ -13,7 +13,7 @@ tags:
 ### 디지털 서비스의 개인화에 대한 연구가 아직 무르익지 않았던 2006년, 넷플릭스는 [사용자들의 영화 선호도 데이터](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data)를 기반으로 추천 시스템 공모전(Netflix Prize)을 열었다.
 이 대회는 현대의 AI 공모전의 조상격이 되는 것으로, 최종 우승은 여후다 코렌(Yehuda Koren), 로버트 벨(Robert Bell)과 크리스 볼린스키(Chris Volinsky) 3인으로 구성된 벨코(BellKor)팀이 차지했다. 그들은 대회 규칙에 따라 그들의 알고리즘을 공개하였고, 이후 같은 기술을 응용한 추천 시스템이 세상을 휩쓸게 된다. 그들이 대회에서 사용했던 테크닉을 집대성한 기념비적인 논문을 살펴보자.
 
-![Untitled](/assets/images/papers/recsys/1/1.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/1.png)
 _"추천 시스템을 위한 행렬 분해 기법"._
 
 <br>
@@ -22,11 +22,11 @@ _"추천 시스템을 위한 행렬 분해 기법"._
 
 추천 시스템은 일반적으로 사용자와 상품의 상호작용을 나타낸 데이터를 다룬다. 이 데이터로 모델링을 진행하여, 학습 데이터에 존재하지 않는 사용자와 상품 사이에 어떤 상호작용이 이루어졌을지 예측하는 것이 추천 시스템의 주요 과제이다. 예를 들면 Netflix Prize 데이터는 다음과 같이 구성되어 있다.
 
-![Untitled](/assets/images/papers/recsys/1/2.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/2.png)
 
 위 데이터는 실제 Netflix Prize 데이터의 일부이다. 1행의 “1”이라는 글씨는 **사용자 번호**이고, 아래 행들의 숫자들은 각각 **영화 번호**, **1번 사용자가 그 영화에 부여한 평점**, 그리고 **평점 부여 시각**이다. 이제 아래 데이터를 보자.
 
-![Untitled](/assets/images/papers/recsys/1/3.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/3.png)
 
 위 데이터는 실제 Netflix Prize 데이터의 일부를 캡쳐해 평점을 삭제한 것이다. 이렇게 **비공개된 평점을 예측하는 것이 우리에게 주어진 과제**이다. 실제 대회에서는 **예측한 평점과 실제 정답의 Mean Squared Error**가 평가 지표로 선택되었다.
 <br>
@@ -38,11 +38,11 @@ _"추천 시스템을 위한 행렬 분해 기법"._
 
 위의 원본 데이터를 토대로, 사용자와 상품 사이의 상호작용을 나타내는 거대한 **상호작용 행렬(Interaction Matrix)**을 생각해볼 수 있다. 모든 사용자가 모든 상품을 열람했을 확률은 매우 낮으므로, 이 행렬은 군데군데 빈칸이 뚫린 **희소 행렬(Sparse Matrix)**일 것이다.
 
-![Untitled](/assets/images/papers/recsys/1/4.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/4.png)
 
 이러한 $m\times n$행렬을 2개로 분해하여 $m\times k$ 크기의 행렬과 $k\times n$ 크기의 행렬로 만든다면, 전자는 $m$명의 사용자들의 특성을, 그리고 후자는 $n$개의 상품들의 특성을 설명한다고 이해할 수 있다. 여기에서 $k$는 임의로 정할 수 있는 초매개변수이며, 모델의 수용력과 직접적으로 연관된다.
 
-![Untitled](/assets/images/papers/recsys/1/5.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/5.png)
 
 상호작용 행렬을 $R\in\mathbb{R}^{m\times n}$으로, 사용자의 정보를 담은 행렬을 $P\in \mathbb{R}^{m\times k}$로, 그리고 상품 정보를 담은 행렬을 $Q\in\mathbb{R}^{k\times n}$으로 정의해 보자. 위와 같이 빈칸이 있는 행렬 $R$이 주어졌을 때, 두 개의 행렬 $P$와 $Q$로 분해하는 것이 가능하다고 가정하면, 우리는 $P\times Q$를 계산하여 새로운 빈칸이 없는 행렬 $\hat{R}$을 만들 수 있다.
 
@@ -56,25 +56,25 @@ $$
 
 행렬 $R$이 다음과 같이 주어졌다고 하자. 편의상 점수의 범위는 1점~3점으로 설정하였다.
 
-![Untitled](/assets/images/papers/recsys/1/6.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/6.png)
 
 우리는 이 행렬에 몇 개의 구멍을 뚫어 미관측된 데이터를 표현할 것이다. 이제 알고리즘을 통해 구멍이 뚫린 위치의 값을 얼마나 정확히 복원할 수 있는지 확인해 보자.
 
-![Untitled](/assets/images/papers/recsys/1/7.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/7.png)
 
 하지만 잠깐, $R$에는 빈칸이 있어서 SVD를 곧바로 적용하기가 곤란하다. 그렇기에 지금은 빈 칸을 0으로 채워넣고 진행하도록 한다. 물론 평균값으로 채워넣는 등 다른 외삽(extrapolation) 방법도 존재한다.
 
-![Untitled](/assets/images/papers/recsys/1/8.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/8.png)
 
 뭔가 찝찝하지만 우선은 계속 진행하겠다. 이 찝찝함은 나중에 돌아와서 살펴볼 것이다. 이제 SVD를 사용해서 행렬을 $U\times \Sigma\times  V$형태로 분해할 수 있다. 우선 Full SVD를 사용해 보자.
 
-![Untitled](/assets/images/papers/recsys/1/9.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/9.png)
 
 주어진 $R$을 3개의 행렬로 분해했다. 이것은 곧 $R$을 2개의 행렬로 분해한 것이나 다름없다. 앞의 두 행렬, 혹은 뒤의 두 행렬을 곱해서 하나의 행렬로 만들어 버리면 되기 때문이다. 이제 행렬 분해의 결과를 다시 서로 곱해 $\hat{R}$을 계산해 보자.
 
-![Untitled](/assets/images/papers/recsys/1/10.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/10.png)
 
-![Untitled](/assets/images/papers/recsys/1/11.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/11.png)
 
 이것으로 우리의 알고리즘은 nan이었던 값들을 모두 0으로 예측한 셈이 된다. 이것은 실제 정답인 $(1, 2, 1)$을 생각해 보면 형편없는 예측이다. 하지만 자세히 생각해 보면 우리는 구멍이 뚫린 부분의 값을 0으로 채워넣었다. 결국 이 예시에서 Full SVD를 사용한 Matrix Factorization은 **외삽된 값까지 학습해버리기 때문**에 일반화 성능이 떨어진다는 것이다. 오버피팅된 것이다.
 
@@ -82,7 +82,7 @@ $$
 
 오버피팅된 상태의 모델을 개선하는 간단한 방법으로는 수용력을 줄이는 것이 있다. 지금까지 사용한 Full SVD 대신 truncated SVD를 사용해, 2개의 특잇값(Singular Value)만을 사용한다면 다음과 같은 결과를 얻는다.
 
-![Untitled](/assets/images/papers/recsys/1/12.png)
+![Untitled](/assets/images/papers/recsys/1-matrix-factorization/12.png)
 
 원본 행렬을 복원하는 능력은 조금 떨어지지만, 이번에는 $(1, 2, 1)$에 해당하는 값들을 각각 $(0.04, 0.08, -0.0.8)$로 예측하였다. 이전보다는 훨씬 나은 결과이다!
 
@@ -90,7 +90,8 @@ $$
 
 조금 더 고차원적인 해법을 찾기 위해 수학적인 접근을 시도해 보자. SVD에는 다음과 같은 아름다운 특징이 존재한다.
 
-
+{: .highlight }
+> \\
 > 💡 **에카르트-영 정리(Eckart-Young Theorm)**\
 > $R$을 $k$개의 특잇값을 사용해 행렬 $\hat{R}$로 근사했을 때, $X$가 임의의 $k$랭크 행렬이라면 $\hat{R}$은 다음을 만족한다.
 >
