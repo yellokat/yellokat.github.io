@@ -189,4 +189,4 @@ Monolith에서는 오류로 인해 모델이 에러를 내뿜으면 자동적으
 [실시간 추천엔진 머신한대에 구겨넣기](https://www.slideshare.net/deview/261-52784785)\\
 [Monolith: Real Time Recommendation System With Collisionless Embedding Table](https://arxiv.org/abs/2209.07663)\\
 [Nonuniform Negative Sampling and Log Odds Correction with Rare Events Data](https://arxiv.org/pdf/2110.13048.pdf)\\
-[Factorization Machines](https://www.ismll.uni-hildesheim.de/pub/pdfs/Rendle2010FM.pdf)
+[Factorization Machines](https://www.ismll.uni-hildesheim.de/pub/pdfs/Rendle2010FM.pdf) 
