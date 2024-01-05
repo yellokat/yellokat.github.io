@@ -4,6 +4,8 @@ layout: post
 title: "[추천시스템 논문 리뷰] Monolith : Real Time Recommendation System with Collisionless
   Embedding Table"
 date: 2024-01-05 18:07 +0900
+categories:
+  - Papers
 tags:
   - Recommender Systems
   - Machine Learning

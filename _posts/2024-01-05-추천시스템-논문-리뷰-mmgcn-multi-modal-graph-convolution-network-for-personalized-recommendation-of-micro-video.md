@@ -4,6 +4,8 @@ layout: post
 title: "[추천시스템 논문 리뷰] MMGCN : Multi-modal Graph Convolution Network for Personalized
   Recommendation of Micro-video"
 date: 2024-01-05 18:40 +0900
+categories:
+  - Papers
 tags:
   - Recommender Systems
   - Multi-Modal Recommendation
