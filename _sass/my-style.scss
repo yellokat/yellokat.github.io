@@ -1,0 +1,25 @@
+.clap-count {
+    @extend h4;
+    //color: var(--accent-color);
+    color: var(--card-hover-bg);
+    display: none;
+    margin-left: 1.5em;
+    font-size: .85rem;
+  
+    svg {
+      height: 1em;
+      vertical-align: middle;
+      width: 1em;
+    }
+  
+    .flat {
+      //fill: var(--body-bg);
+      fill: var(--card-hover-bg);
+    }
+  
+    .outline {
+      //fill: var(--accent-color);
+      fill: skyblue;
+    }
+  }
+  
