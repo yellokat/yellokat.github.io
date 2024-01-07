@@ -12,7 +12,7 @@
         switch (request.status) {
         case 200:
             elements.forEach(function(element) {
-            var url = element.getAttribute("data-url").replace(/^https?:\/\//, "");
+            var url = element.getAttribute("data-url");
             var clapCount = request.response.find(function(e) { return e.url === url; });
             var countSpan = document.createElement('span');
             
